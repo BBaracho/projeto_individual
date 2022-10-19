@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Bungee+Hairline&family=Gemunu+Libre:wght@600&family=Montserrat:ital@1&family=Titillium+Web&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Bungee+Hairline&family=Gemunu+Libre:wght@800&family=Montserrat:ital@1&family=Titillium+Web&display=swap');
+            </style>
+    <title>Projeto Individual</title>
+</head>
+<body>
+    <header>  
+        <h1>Título do Projeto</h1>
+    </header>  
+
+<main>
+    <div>
+        <form>
+        <section>
+            <input id="cesar" type="radio" name="opcao" value="cifradecesar">
+            <label for="cifradecesar">Cifra de Cesar</label>
+            <input id="base64" type="radio" name="opcao" value="base64" checked>
+            <label for="base64">Base64</label>
+        </section>
+        <section>
+            <label><strong>Mensagem:</strong></label>
+         <br>
+            <textarea name="mensagem" id="mensagem" cols="50" rows="10"  class="cx" placeholder="Digite a sua mensagem..."></textarea>
+        </section>
+        <section id="incrementar" >
+            <label for="incrementar">Incremento:</label>
+            <input type="number" id="incrementacao" value="1" name="incrementar" class="cx2">
+        </section>
+        <section>
+            <input  type="radio" id="codificar" name="opcao2" onclick="trocaTexto ()"checked>
+            <label for="codificar" >Codificar</label>
+            <input  type="radio" id="decodificar" name="opcao2" onclick="trocaTexto ()">
+            <label for="decodificar">Decodificar</label>
+        </section>
+        <br>
+            <label><strong>Resultado:</strong></label>
+        <br>
+            <textarea name="resultado" id="resultado" cols="50" rows="10"  class="cx"></textarea>
+        <br>
+        <button id="btn" class="button-css">CODIFICAR</button> 
+        
+        <script src="/js/script.js"></script>
+        </form>
+    </div>
+</main>
+</body>
+</html>
