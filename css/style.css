@@ -19,6 +19,7 @@
     
     div {
         display: flex;
+        justify-content: center;
         background-color: #0000003f;
         flex-direction: column;
         margin-left: 450px;
@@ -59,8 +60,3 @@
     .button-css:hover {
       background: #1eff00;
     }
-
-form {
-    display: flex;
-    justify-content: center;
-}
