@@ -18,11 +18,10 @@
     }
     
     div {
-        display: flex;
+        display: block;
         justify-content: center;
         background-color: #0000003f;
         flex-direction: column;
-        margin-left: 50%;
         margin-top: -5px;
         width: 500px;
         height: 510px;
